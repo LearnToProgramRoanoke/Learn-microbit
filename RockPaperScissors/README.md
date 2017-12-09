@@ -1,6 +1,6 @@
 # Rock Paper Scissors
 
-Create a simple game that selects a random image of each game image.
+Create a simple game that selects at random each game image.
 
 **Learning Concepts**
 
