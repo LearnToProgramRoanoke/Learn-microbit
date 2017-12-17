@@ -1,9 +1,11 @@
-""""Twinkle.py
+"""
+Twinkle.py
 Display random colors on a strip of Neopixels
 Date: 12/17/2017
 Author: Darrell Little
 This software is in the public domain
 """
+
 from microbit import *
 from random import choice
 import neopixel
