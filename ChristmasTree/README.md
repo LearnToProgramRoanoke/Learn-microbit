@@ -17,5 +17,6 @@ Using a web browser, go to [https://create.withcode.uk](https://create.withcode.
 
 For this workshop, we will be coding inside this editor or you can download
 the Mu editor at [https://codewith.mu/](https://codewith.mu/). Mu works
-with Windows, Mac OSX, Linux and Raspberry Pi.
+with Windows, Mac OSX, Linux and Raspberry Pi. 
 
+A simple circuit with a piezo speaker and a resistor is also required for the sound.
