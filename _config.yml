@@ -25,6 +25,37 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "learntoprogramroanoke/learn-microbit"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
+words_per_minute         : 160
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname            :
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+staticman:
+  allowedFields          : # ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages" # "master", "gh-pages"
+  commitMessage          : # "New comment."
+  filename               : # comment-{@timestamp}
+  format                 : "yml"
+  moderation             : # true
+  path                   : # "_data/comments/{options.slug}"
+  requiredFields         : # ['name', 'email', 'message']
+  transforms:
+    email                : # "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+read_more                : "enabled" # if enabled, adds a "read more" link to excerpts 
+future                   : true
 
 # Site Author
 author:
@@ -124,7 +155,7 @@ sass:
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 defaults:
-  _posts
+  # _posts
   - scope:
       path: ""
       type: posts
