@@ -1,6 +1,6 @@
 ## Learn To Program, Roanoke!
 
-Code samples and materials for learning to program with the BBC micro:bit
+Projects created using MicroPython
 
 * Rock - Paper - Scissors Game - Hour of Code 2017
 * Snow Globe - shake the micro:bit for a simple animation effect
